@@ -1,25 +1,56 @@
 /* Estilos para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #333;
     margin: 0;
     padding: 0;
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
-    text-align: center;
+    text-align: center;18:05 2/10/2023
     padding: 20px;
 }
 
-header h1 {
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos para la sección "Inicio" */
+#home {
+    background-image: url('home-bg.jpg'); /* Agrega tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
     font-size: 36px;
     margin: 0;
 }
 
-/* Estilos para la sección de servicios */
+#home p {
+    font-size: 18px;
+}
+
+/* Estilos para la sección "Nuestros Servicios" */
 #services {
     background-color: #fff;
     padding: 40px 0;
@@ -60,7 +91,64 @@ header h1 {
     margin: 0 auto;
 }
 
-/* Estilos para la sección de contacto */
+/* Estilos para la sección "Infraestructura en la Nube" */
+#cloud-infrastructure {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#cloud-infrastructure h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#cloud-infrastructure p {
+    font-size: 16px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la sección "Implementación de Marcos de Ciberseguridad" */
+#cybersecurity-frameworks {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#cybersecurity-frameworks h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#cybersecurity-frameworks p {
+    font-size: 16px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la sección "Cumplimiento con PCI-DSS" */
+#pci-dss {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#pci-dss h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#pci-dss p {
+    font-size: 16px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la sección "Contacto" */
 #contact {
     background-color: #333;
     color: #fff;
