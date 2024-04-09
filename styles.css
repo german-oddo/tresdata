@@ -54,22 +54,25 @@ header nav ul li a {
 #services {
     background-color: #fff;
     padding: 40px 0;
-    text-align: left;
+    text-align: center;
 }
 
 #services h2 {
     font-size: 28px;
     color: #333;
+    text-align: left;
 }
 
 #services ul {
     list-style: none;
     padding: 0;
+    text-align: left;
 }
 
 #services li {
     font-size: 18px;
     margin: 10px 0;
+    text-align: left;
 }
 
 /* Estilos para la sección "Sobre Nosotros" */
