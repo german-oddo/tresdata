@@ -60,13 +60,11 @@ header nav ul li a {
 #services h2 {
     font-size: 28px;
     color: #333;
-    text-align: left;
 }
 
 #services ul {
     list-style: none;
     padding: 0;
-    text-align: left;
 }
 
 #services li {
