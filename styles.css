@@ -33,7 +33,7 @@ header nav ul li a {
 
 /* Estilos para la sección "Inicio" */
 #home {
-    background-image: url('home-bg.jpg'); /* Agrega tu imagen de fondo */
+    background-image: url('images/logo3d.png'); /* Agrega tu imagen de fondo */
     background-size: cover;
     background-position: center;
     color: #fff;
