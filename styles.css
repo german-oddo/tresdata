@@ -159,13 +159,14 @@ a { color: var(--blue-500); }
 .section-head p:last-child { color: var(--muted); font-size: 1.08rem; }
 
 /* Tarjetas de servicios */
-.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+.cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+.cards > .card { flex: 1 1 calc((100% - 3rem) / 3); max-width: calc((100% - 3rem) / 3); }
 .card {
     background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
     padding: 2rem; box-shadow: var(--shadow);
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
-.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); border-color: #c9d6f2; }
+.card:hover, .js .card.reveal.visible:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); border-color: #c9d6f2; }
 .card p { color: var(--muted); font-size: .98rem; }
 
 .card-icon {
@@ -247,7 +248,8 @@ a { color: var(--blue-500); }
 .js .reveal.visible { opacity: 1; transform: none; }
 .cards .reveal:nth-child(2) { transition-delay: .08s; }
 .cards .reveal:nth-child(3) { transition-delay: .16s; }
-.cards .reveal:nth-child(4) { transition-delay: .24s; }
+.cards .reveal:nth-child(4) { transition-delay: .08s; }
+.cards .reveal:nth-child(5) { transition-delay: .16s; }
 
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -257,7 +259,8 @@ a { color: var(--blue-500); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
-    .cards { grid-template-columns: 1fr; max-width: 640px; margin-inline: auto; }
+    .cards { max-width: 640px; margin-inline: auto; }
+    .cards > .card { flex-basis: 100%; max-width: 100%; }
     .split, .about { grid-template-columns: 1fr; }
     .cta { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 }
