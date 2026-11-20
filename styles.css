@@ -250,6 +250,7 @@ a { color: var(--blue-500); }
 .cards .reveal:nth-child(3) { transition-delay: .16s; }
 .cards .reveal:nth-child(4) { transition-delay: .08s; }
 .cards .reveal:nth-child(5) { transition-delay: .16s; }
+.cards .reveal:nth-child(6) { transition-delay: .24s; }
 
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
