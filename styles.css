@@ -236,6 +236,28 @@ a { color: var(--blue-500); }
 .cta p { margin: 0; color: var(--on-dark-muted); max-width: 520px; }
 .cta-logo { width: 92px; height: auto; background: #fff; border-radius: 18px; padding: 8px; }
 
+/* Liderazgo en seguridad */
+.leadership { background: var(--navy-950); color: var(--on-dark); position: relative; overflow: hidden; }
+.leadership::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(50% 60% at 90% 0%, rgba(47, 107, 255, .25), transparent 70%);
+}
+.leadership .container { position: relative; }
+.leadership .eyebrow { color: var(--cyan-400); }
+.leadership h2 { color: #fff; }
+.leadership .section-head p:last-child { color: var(--on-dark-muted); }
+.leadership-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.leadership-grid li {
+    padding: 1.6rem; border-radius: var(--radius);
+    background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .09);
+}
+.leadership-grid h3 { color: #fff; font-size: 1.05rem; }
+.leadership-grid p { margin: 0; color: var(--on-dark-muted); font-size: .95rem; }
+.leadership-teams { margin-top: 2.5rem; text-align: center; }
+.leadership-teams p { color: var(--on-dark-muted); margin-bottom: .25rem; }
+.leadership-teams .tags { justify-content: center; }
+.leadership-teams .tags span { background: rgba(255, 255, 255, .06); border-color: rgba(255, 255, 255, .14); color: var(--on-dark); }
+
 /* Casos de éxito */
 #about + #cases { padding-top: 0; }
 .cases { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
@@ -302,6 +324,7 @@ a { color: var(--blue-500); }
     .cards { max-width: 640px; margin-inline: auto; }
     .cards > .card { flex-basis: 100%; max-width: 100%; }
     .split, .about { grid-template-columns: 1fr; }
+    .leadership-grid { grid-template-columns: 1fr 1fr; }
     .cta { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 }
 
@@ -320,6 +343,7 @@ a { color: var(--blue-500); }
     .hero-stats { gap: 1rem 2rem; }
     .values { grid-template-columns: 1fr; }
     .cases { grid-template-columns: 1fr; }
+    .leadership-grid { grid-template-columns: 1fr; }
     .card { padding: 1.6rem; }
     .cta .btn-lg { width: 100%; font-size: 1rem; }
 }

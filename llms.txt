@@ -21,6 +21,18 @@
 
 TresData ofrece consultoría, implementación, outsourcing y migración, con soluciones end-to-end y de valor agregado que alinean los recursos de IT con los objetivos del negocio. Trabaja con un enfoque centrado en el cliente, soluciones a medida, entornos simples, integrados y escalables, y proyectos planificados de punta a punta.
 
+## Experiencia en liderazgo de seguridad
+
+El equipo de TresData tiene experiencia liderando la estrategia de ciberseguridad de organizaciones, con foco en la protección de activos críticos, el cumplimiento normativo y la gestión de riesgos tecnológicos:
+
+- **Gobernanza y cumplimiento normativo**: Diseñamos y mantenemos el marco de políticas, procesos y controles de seguridad, alineado con regulaciones locales e internacionales y con los objetivos del negocio.
+- **Gestión de riesgos y continuidad**: Identificamos, evaluamos y mitigamos riesgos de ciberseguridad, con análisis de impacto en el negocio y planes de continuidad operativa.
+- **Respuesta a incidentes y auditorías**: Coordinamos la respuesta ante incidentes, desde la detección hasta la remediación, y verificamos la efectividad de los controles con auditorías internas y externas.
+- **Clasificación y protección de la información**: Clasificamos la información según su sensibilidad y la protegemos durante todo su ciclo de vida: generación, almacenamiento, procesamiento, transmisión y destrucción.
+- **Concientización y cultura**: Planes de concientización y capacitación para empleados, terceros y clientes, con foco en reducir el riesgo humano.
+- **Gobierno de IA y de proveedores**: Evaluamos los riesgos de seguridad y privacidad en el uso de inteligencia artificial y aseguramos que proveedores y contratistas cumplan los requisitos de seguridad.
+- **Equipos multidisciplinarios**: experiencia coordinando Red Team, Blue Team, Gestión de Identidades, Compliance & Awareness, Product Security y Data & Observability.
+
 ## Casos de éxito (clientes anónimos)
 
 - **Retail, migración integral a AWS**: migración de toda la operativa de una empresa de retail desde su datacenter local a la nube de AWS.
