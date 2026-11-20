@@ -14,7 +14,7 @@
 - **Automatización y Eficiencia con IA**: Diagnóstico de procesos automatizables, asistentes y agentes de IA, e integración de IA con los sistemas de la empresa.
 - **Desarrollo de Software**: Aplicaciones web, sistemas a medida, integraciones y APIs, con seguridad desde el diseño.
 - **FinOps y Optimización de Costos Cloud**: Visibilidad y optimización del gasto en AWS, Azure y Google Cloud: ajuste de recursos, reservas, presupuestos y alertas.
-- **Implementación de Marcos de TI y Ciberseguridad**: Implementación de NIST y COBIT 2019 para gobernanza de TI, gestión de riesgos y cumplimiento.
+- **Implementación de Marcos de TI y Ciberseguridad**: Implementación de NIST y COBIT 7 para gobernanza de TI, gestión de riesgos y cumplimiento.
 - **Cumplimiento PCI-DSS**: Acompañamiento en todos los requisitos de PCI-DSS para empresas que manejan datos de tarjetas.
 
 ## Enfoque
@@ -41,7 +41,7 @@ El equipo de TresData tiene experiencia liderando la estrategia de cibersegurida
 ## Preguntas frecuentes
 
 ### ¿Qué servicios ofrece TresData?
-Seguridad de la información, migraciones de on-premise a la nube, proyectos de tecnología, automatización y eficiencia con IA, desarrollo de software, FinOps y optimización de costos cloud, implementación de marcos NIST y COBIT 2019, y cumplimiento con PCI-DSS.
+Seguridad de la información, migraciones de on-premise a la nube, proyectos de tecnología, automatización y eficiencia con IA, desarrollo de software, FinOps y optimización de costos cloud, implementación de marcos NIST y COBIT 7, y cumplimiento con PCI-DSS.
 
 ### ¿Con qué nubes trabajan?
 Trabajamos con AWS, Microsoft Azure y Google Cloud, tanto para migraciones como para optimización de costos (FinOps).
@@ -53,7 +53,7 @@ Identificamos tareas repetitivas y procesos manuales y los automatizamos con IA,
 Sí. Si tu empresa maneja información de tarjetas de crédito, nuestros expertos te acompañan en todos los requisitos de PCI-DSS.
 
 ### ¿Qué marcos de ciberseguridad y gobierno de TI implementan?
-Implementamos marcos de ciberseguridad como NIST y de gobernanza de TI como COBIT 2019.
+Implementamos marcos de ciberseguridad como NIST y de gobernanza de TI como COBIT 7.
 
 ### ¿Cuánta experiencia tiene TresData?
 Más de 15 años en el sector, liderando proyectos de IT y seguridad con servicios de consultoría, implementación, outsourcing y migración.
