@@ -3,89 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TresData · Seguridad de la Información y Tecnología</title>
+    <meta name="description" content="TresData: consultoría en seguridad de la información, migraciones a la nube, proyectos de tecnología, marcos NIST y COBIT, y cumplimiento PCI-DSS. Más de 15 años construyendo confianza digital.">
+    <meta name="theme-color" content="#0a1630">
+    <meta property="og:title" content="TresData · Construyendo confianza digital">
+    <meta property="og:description" content="Seguridad de la información, nube y proyectos de tecnología para empresas.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/logo3d.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>TresData - Seguridad de la Información y Tecnología</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#services">Nuestros Servicios</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#cybersecurity-frameworks">Ciberseguridad y TI</a></li>
-                <li><a href="#pci-dss">PCI-DSS</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="TresData, inicio">
+                <svg class="brand-mark" viewBox="0 0 32 36" aria-hidden="true">
+                    <path d="M16 1 30 6v11c0 9-6 15.5-14 18C8 32.5 2 26 2 17V6l14-5Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+                    <path d="M16 26V14M10 22v-5l-2-2M22 22v-5l2-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="16" cy="11.5" r="2" fill="currentColor"/><circle cx="7" cy="13.5" r="1.8" fill="currentColor"/><circle cx="25" cy="13.5" r="1.8" fill="currentColor"/>
+                </svg>
+                <span>TRESDATA</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Principal">
+                <ul>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#cybersecurity-frameworks">Marcos de TI</a></li>
+                    <li><a href="#pci-dss">PCI-DSS</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact" class="btn btn-sm">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h1>TRESDATA</h1>
-        <p>CONSTRUYENDO CONFIANZA DIGITAL.</p>
-    </section>
+    <main id="main">
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <p class="eyebrow">Seguridad de la información · Nube · Tecnología</p>
+                <h1>Construyendo <span class="gradient-text">confianza digital</span>.</h1>
+                <p class="lead">Protegemos los datos de tu empresa, la llevamos a la nube y ejecutamos tus proyectos de tecnología con un equipo con más de 15 años de experiencia.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn">Hablemos de tu proyecto</a>
+                    <a href="#services" class="btn btn-ghost">Ver servicios</a>
+                </div>
+                <ul class="hero-stats">
+                    <li><strong>+15</strong><span>años de experiencia</span></li>
+                    <li><strong>End-to-end</strong><span>consultoría, implementación y soporte</span></li>
+                    <li><strong>AWS · Azure · GCP</strong><span>multinube</span></li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="services">
-        <h2>Seguridad de la Información</h2>
-        <ul>
-            <li> <!-- <img src="images/seginfo3d.jpg"/> --></li>
-            <p>Nuestra experiencia en seguridad de la información garantiza que tus datos estén protegidos contra las amenazas más avanzadas. Ofrecemos auditorías de seguridad, evaluaciones de riesgos y soluciones personalizadas para salvaguardar la información de tu empresa.</p>
-            <p>Contamos con un equipo altamente experimentado y dedicado, con años de experiencia en la protección y gestión de datos sensibles. Implementamos rigurosas políticas y procedimientos para salvaguardar la confidencialidad, integridad y disponibilidad de la información.</p>
-            <p>Esto incluye la utilización de tecnologías avanzadas de cifrado, firewalls, sistemas de detección de intrusiones y auditorías regulares para garantizar el cumplimiento de los estándares de seguridad.</p>
-            <p>Nuestro equipo se mantiene actualizado con las últimas tendencias y amenazas en seguridad cibernética, asegurando así que nuestros sistemas estén siempre un paso adelante en la protección de los activos de información de nuestros clientes.</p></li>
-        <h2>Migraciones de On-permise a Nube</h2>    
-            <li><!--<img src="images/mignube3d.jpg"/>--></li>
-            <p>Facilitamos la migración y gestión de tus aplicaciones y servicios en la nube. Colaboramos con AWS, Azure y Google Cloud para ofrecerte soluciones escalables y seguras que impulsarán tu negocio en línea.</p>
-            <p>Nuestra empresa se especializa en integraciones y migraciones de servidores y tecnología, facilitando la transición sin problemas de entornos on-premise a la nube.</p> 
-            <p>Con un equipo altamente experimentado y años de expertise en la industria, ofrecemos soluciones personalizadas para optimizar la eficiencia y la seguridad de su infraestructura tecnológica.</p> 
-            <p>Desde el análisis inicial hasta la implementación y el soporte continuo, nuestro equipo se encarga de cada paso del proceso para garantizar una migración exitosa y sin interrupciones en sus operaciones comerciales.</p> 
-            <p>Confíe en nosotros para llevar su empresa al siguiente nivel tecnológico con confianza y tranquilidad.</p>
-           <h2>Proyectos de Tecnología</h2> 
-            <li><!--<img src="images/pryctotec3d.jpg"/>--></li>
-            <p>Nuestro equipo de expertos en tecnología está listo para llevar tus proyectos al siguiente nivel. Desde desarrollo de software hasta implementación de infraestructura, estamos aquí para cumplir tus metas tecnológicas.</p>
-            <p>Nuestra empresa es líder en la gestión y ejecución de proyectos de tecnología de vanguardia. Contamos con un equipo dedicado y con una vasta experiencia en una amplia gama de áreas tecnológicas.</p> 
-            <p>Desde el diseño e implementación de soluciones innovadoras hasta la consultoría estratégica y el soporte continuo, estamos comprometidos a impulsar el éxito de su empresa en el mundo digital.</p> 
-            <p>Nos destacamos por nuestra capacidad para adaptarnos a las necesidades específicas de cada cliente, ofreciendo soluciones a medida que maximizan la eficiencia, la productividad y el retorno de la inversión.</p> 
-            <p>Confíe en nosotros para llevar a cabo sus proyectos tecnológicos con excelencia y profesionalismo.</p>
-            <!-- Puedes agregar más servicios aquí -->
-           
-        </ul>
-    </section>
+        <!-- SERVICIOS -->
+        <section id="services" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Qué hacemos</p>
+                    <h2>Nuestros servicios</h2>
+                    <p>Soluciones a medida, desde el análisis inicial hasta la implementación y el soporte continuo.</p>
+                </header>
 
+                <div class="cards">
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.5 8 11 4.6-1.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <h3>Seguridad de la Información</h3>
+                        <p>Protegemos tus datos frente a las amenazas más avanzadas con auditorías de seguridad, evaluaciones de riesgos y soluciones personalizadas que resguardan la confidencialidad, integridad y disponibilidad de la información.</p>
+                        <ul class="checklist">
+                            <li>Auditorías y evaluaciones de riesgo</li>
+                            <li>Cifrado, firewalls y detección de intrusiones</li>
+                            <li>Políticas y procedimientos de seguridad</li>
+                            <li>Monitoreo de nuevas amenazas y tendencias</li>
+                        </ul>
+                    </article>
 
-    <section id="cybersecurity-frameworks">
-        <h2>Implementación de Marcos de TI y Ciberseguridad</h2>
-        <p>En TresData, nos enorgullece implementar marcos de ciberseguridad líderes como NIST o de gobernanza TI como COBIT 2019. Nuestra atención meticulosa a la seguridad y gobernanza de tu empresa garantiza la protección contra las amenazas cibernéticas y el cumplimiento de las regulaciones.</p>
-    </section>
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.5-9 6 6 0 0 1 11.6 1.5A4 4 0 0 1 17.5 18Z"/><path d="M12 15V10m0 0-2.5 2.5M12 10l2.5 2.5"/></svg>
+                        </div>
+                        <h3>Migraciones On-premise a Nube</h3>
+                        <p>Llevamos tus servidores, aplicaciones y servicios a la nube sin interrumpir tu operación. Trabajamos con AWS, Azure y Google Cloud para ofrecerte infraestructura escalable, eficiente y segura.</p>
+                        <ul class="checklist">
+                            <li>Análisis y planificación de la migración</li>
+                            <li>Integración de servidores y tecnología</li>
+                            <li>Migración sin interrupciones</li>
+                            <li>Soporte y optimización continua</li>
+                        </ul>
+                    </article>
 
-    <section id="pci-dss">
-        <h2>Cumplimiento con PCI-DSS</h2>
-        <p>Si tu empresa maneja información de tarjetas de crédito, el cumplimiento con PCI-DSS es esencial. Nuestros expertos en seguridad te ayudarán a cumplir con todos los requisitos y a mantener la confianza de tus clientes en la seguridad de sus datos.</p>
-    </section>
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M8 9l-2 1.5L8 12M16 9l2 1.5-2 1.5M13 8l-2 5"/></svg>
+                        </div>
+                        <h3>Proyectos de Tecnología</h3>
+                        <p>Gestionamos y ejecutamos proyectos de tecnología, desde desarrollo de software hasta implementación de infraestructura, adaptándonos a las necesidades de cada cliente para maximizar eficiencia y retorno de la inversión.</p>
+                        <ul class="checklist">
+                            <li>Desarrollo de software</li>
+                            <li>Implementación de infraestructura</li>
+                            <li>Consultoría estratégica</li>
+                            <li>Outsourcing y soporte</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-      <section id="about">
-        <h2>Sobre Nosotros</h2>
-        <p>TresData es una empresa líder en seguridad de la información y tecnología. Con años de experiencia y un enfoque centrado en el cliente, estamos comprometidos a proteger tus datos y asegurar tu éxito tecnológico.</p>
-        <p>Somos un equipo altamente experimentado y comprometido en ofrecer soluciones a la medida en el campo de las tecnologías de la información.</p> 
-        <p>Contamos con más de 15 años de experiencia en el sector y hemos liderado con éxito múltiples proyectos en soluciones de IT y Seguridad. Ofrecemos servicios de consultoría, Implementación y outsourcing, migración, entregando soluciones “end-to-end” y de valor agregado a nuestros clientes.</p>
-        <p>Estamos dedicados a brindar resultados de calidad y a la excelencia en cada uno de nuestros servicios. Durante toda su trayectoria, TRESDATA ha acompañado el crecimiento de diversas organizaciones, brindando una amplia gama de soluciones de tecnología y seguridad que permiten alinear la optimización de los recursos de IT con los objetivos del negocio y protegerlas de las amenazas.</p>
-        <p>Finalmente, TRESDATA buscar ofrecer soluciones orientadas a simplificar los entornos de tecnología y seguridad de las empresas con soluciones altamente escalables, integradas; y con capacidad para realizar una planificación de los proyectos.</p>
+        <!-- MARCOS + PCI -->
+        <section class="section section-alt">
+            <div class="container split">
+                <article id="cybersecurity-frameworks" class="feature reveal">
+                    <p class="eyebrow">Gobierno y ciberseguridad</p>
+                    <h2>Implementación de marcos de TI y ciberseguridad</h2>
+                    <p>Implementamos marcos de ciberseguridad líderes como <strong>NIST</strong> y de gobernanza de TI como <strong>COBIT 2019</strong>. Nuestra atención meticulosa a la seguridad y gobernanza de tu empresa garantiza la protección frente a amenazas y el cumplimiento de las regulaciones.</p>
+                    <div class="tags">
+                        <span>NIST</span><span>COBIT 2019</span><span>Gestión de riesgos</span><span>Cumplimiento</span>
+                    </div>
+                </article>
 
-    </section>
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Estamos disponibles para responder tus preguntas y discutir cómo podemos colaborar en tu éxito.</p>
-        <p>¡Contáctanos hoy mismo!</p>
-        <address>
-            Email: <a href="mailto:info@tresdata.com">info@tresdata.uy</a><br>  
-        </address>
-        <br>
-        <img src="images/logo3d.png"/>
-    </section>
+                <article id="pci-dss" class="feature feature-highlight reveal">
+                    <p class="eyebrow">Industria de pagos</p>
+                    <h2>Cumplimiento con PCI-DSS</h2>
+                    <p>Si tu empresa maneja información de tarjetas de crédito, cumplir con PCI-DSS es esencial. Nuestros expertos te acompañan en todos los requisitos para que mantengas la confianza de tus clientes en la seguridad de sus datos.</p>
+                    <a href="#contact" class="link-arrow">Consultar por PCI-DSS</a>
+                </article>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 TresData - Todos los derechos reservados.</p>
+        <!-- NOSOTROS -->
+        <section id="about" class="section">
+            <div class="container about">
+                <div class="about-text reveal">
+                    <p class="eyebrow">Sobre nosotros</p>
+                    <h2>Un equipo experimentado, enfocado en tu negocio</h2>
+                    <p>TresData es una empresa de seguridad de la información y tecnología con más de 15 años de experiencia en el sector. Hemos liderado con éxito múltiples proyectos de IT y seguridad, acompañando el crecimiento de diversas organizaciones.</p>
+                    <p>Ofrecemos consultoría, implementación, outsourcing y migración, con soluciones <em>end-to-end</em> y de valor agregado que alinean los recursos de IT con los objetivos del negocio y protegen a las empresas de las amenazas.</p>
+                </div>
+                <ul class="values reveal">
+                    <li>
+                        <h3>Enfoque en el cliente</h3>
+                        <p>Soluciones a la medida de cada organización.</p>
+                    </li>
+                    <li>
+                        <h3>Simplicidad</h3>
+                        <p>Entornos de tecnología y seguridad más simples, integrados y escalables.</p>
+                    </li>
+                    <li>
+                        <h3>Planificación</h3>
+                        <p>Proyectos planificados de punta a punta, sin sorpresas.</p>
+                    </li>
+                    <li>
+                        <h3>Excelencia</h3>
+                        <p>Resultados de calidad en cada servicio que entregamos.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="cta reveal">
+                    <img src="images/logo3d.png" alt="TresData" class="cta-logo" width="121" height="116">
+                    <div>
+                        <h2>¿Conversamos?</h2>
+                        <p>Estamos disponibles para responder tus preguntas y ver cómo podemos colaborar en tu éxito.</p>
+                    </div>
+                    <a class="btn btn-lg" href="mailto:info@tresdata.uy">info@tresdata.uy</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year">2026</span> TresData. Todos los derechos reservados.</p>
+            <a href="#top">Volver arriba ↑</a>
+        </div>
     </footer>
+
+    <script>
+        // Año dinámico en el pie
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Menú móvil
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('site-nav');
+        toggle.addEventListener('click', () => {
+            const open = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!open));
+            nav.classList.toggle('open', !open);
+        });
+        nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            toggle.setAttribute('aria-expanded', 'false');
+            nav.classList.remove('open');
+        }));
+
+        // Sombra del header al hacer scroll
+        const header = document.querySelector('.site-header');
+        const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Aparición suave de secciones
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver(entries => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+                });
+            }, { threshold: 0.12 });
+            document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+        } else {
+            document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+        }
+    </script>
 </body>
 </html>
