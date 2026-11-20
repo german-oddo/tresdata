@@ -31,7 +31,6 @@ El equipo de TresData tiene experiencia liderando la estrategia de cibersegurida
 - **Clasificación y protección de la información**: Clasificamos la información según su sensibilidad y la protegemos durante todo su ciclo de vida: generación, almacenamiento, procesamiento, transmisión y destrucción.
 - **Concientización y cultura**: Planes de concientización y capacitación para empleados, terceros y clientes, con foco en reducir el riesgo humano.
 - **Gobierno de IA y de proveedores**: Evaluamos los riesgos de seguridad y privacidad en el uso de inteligencia artificial y aseguramos que proveedores y contratistas cumplan los requisitos de seguridad.
-- **Equipos multidisciplinarios**: experiencia coordinando Red Team, Blue Team, Gestión de Identidades, Compliance & Awareness, Product Security y Data & Observability.
 
 ## Casos de éxito (clientes anónimos)
 
