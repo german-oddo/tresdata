@@ -159,7 +159,7 @@ a { color: var(--blue-500); }
 .section-head p:last-child { color: var(--muted); font-size: 1.08rem; }
 
 /* Tarjetas de servicios */
-.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
 .card {
     background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
     padding: 2rem; box-shadow: var(--shadow);
@@ -247,6 +247,7 @@ a { color: var(--blue-500); }
 .js .reveal.visible { opacity: 1; transform: none; }
 .cards .reveal:nth-child(2) { transition-delay: .08s; }
 .cards .reveal:nth-child(3) { transition-delay: .16s; }
+.cards .reveal:nth-child(4) { transition-delay: .24s; }
 
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
