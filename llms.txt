@@ -37,6 +37,10 @@ El equipo de TresData tiene experiencia liderando la estrategia de cibersegurida
 - **Retail, migración integral a AWS**: migración de toda la operativa de una empresa de retail desde su datacenter local a la nube de AWS.
 - **Retail, migración de correo a Office 365**: migración del sistema de correo de una empresa de retail a Office 365.
 
+## Blog
+
+- [COBIT 7: qué trae el nuevo marco de gobierno de TI de ISACA](https://tresdata.uy/blog/cobit-7/): ISACA presentó COBIT 7: plataforma digital, 5 dominios y 40 objetivos, evaluaciones en tres niveles y foco en riesgos emergentes como la IA. Qué cambia y cómo prepararse.
+
 ## Preguntas frecuentes
 
 ### ¿Qué servicios ofrece TresData?
